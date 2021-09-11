@@ -1,9 +1,11 @@
 .block_element {
   width: 355px;
-  background-color: lightblue;
+  background-color: #885789;
   padding: 35px;
 /* Add margin here. */
 /* Add text align below */
+margin: 0 auto;
+text-align: center;
 }
 
 
