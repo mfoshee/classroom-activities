@@ -1,3 +1,45 @@
 h1 {
     font-family: 'Urbanist', sans-serif;
+    font-size: 48px;
 }
+
+h2 {
+    font-weight: bolder;
+}
+
+nav {
+    display: inline-block;
+}
+
+body {
+    font-family: 'Urbanist', sans-serif;
+}
+
+.menu-item {
+    display: inline-block;
+    width: 150px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: pink;
+    color: white;
+    padding-top: 20px;
+}
+
+.sidebar {
+    width: 28%;
+    background-color: lightpink;
+    float: left;
+    height: 1500px;
+    padding: 2%;
+}
+
+.pet-name img {
+    width: 150px;
+}
+
+.main-content {
+    width: 60%;
+    float: left;
+    padding-left: 2%;
+}
+
