@@ -14,16 +14,46 @@
 }
 .hoverMe {
   grid-area: hover;
-  background-color: red;
+  background-color: lightblue;
   color: white;
   width: 150px;
   text-align: center;
   height: 50px;
   /* Add the css property transition here! */
-
 }
 /* active state */
 .hoverMe:hover {
   /* Add your hover state css here. */
+  background-color: coral;
+  transform: scale(2) rotate(30deg);
+  box-shadow: grey 5px 5px 15px 5px;
+  font-size: 20pt;
+  color: white;
+}
 
+.card {
+  margin: 0, auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  text-align: center;
+  height: 200px;
+  border: 3px solid pink;
+  background-color: #f1f1f1;
+
+}
+
+.card p {
+  font-size: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card:hover {
+  background-color: #d3d3d3;
+  border-color: lightskyblue;
+  box-shadow: 3px #f1f1f1;
+  border-radius: 10px;
+  transition: 0.3sec ease;
+  cursor: pointer;
 }
