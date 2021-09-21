@@ -1,4 +1,7 @@
 // Use jQuery to target the <h1> tag and make it red.
+$("h1").css("color", "red");
+$(".blue").css({"color": "blue", "font-size": "20px", "font-family": "sans-serif"});
+$("#addMe").html("Hello")
 
 // Use jQuery to target the blue class and make it blue.
 

@@ -1,1 +1,30 @@
 /* Style your dropdown below! */
+.container {
+    text-align: center;
+    font-family: sans-serif;
+    font-variant: all-small-caps;
+}
+
+#toggle {
+    background-color: lightsalmon;
+    width: 300px;
+    padding: 5px;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: none;
+}
+
+
+li {
+    border: 1px solid black;
+    padding: 5px;
+    width: 300px;
+}
+
+.img {
+    size: 50%;
+}
