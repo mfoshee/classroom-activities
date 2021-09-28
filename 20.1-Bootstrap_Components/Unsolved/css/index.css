@@ -8,5 +8,12 @@ footer {
 }
 
 .card {
+background-color: rgb(250, 217, 222);
+}
 
+.signUp form {
+  margin: 35px auto;
+  background-color: #f2f2f2;
+  padding: 25px;
+  border-radius: 7px;
 }
