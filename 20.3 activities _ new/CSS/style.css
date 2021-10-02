@@ -1,0 +1,64 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#hero {
+    background-image: url("../images/hero-background.png");
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-item.active {
+    text-decoration: underline;
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    flex-direction: column;
+    background: none;
+}
+
+.jumbotron .display-4, .jumbotron .lead {
+    color: white;
+    padding-bottom: 20px;
+}
+
+.sectionHeading {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 58px;
+}
+
+.sectionHeading span {
+    color: #FFA300;
+    display: block;
+    font-size: 37px;
+}
+
+.adventureCard .card {
+    background-image: url(../images/adventure-card.png);
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.btn-primary {
+    background-color: #ffa300;
+    border: 1px solid #FFA300;
+}
+
+.bookFlight {
+
+}
